@@ -12,7 +12,7 @@ std::unique_ptr<KFNManager> manager;
 DWORD WINAPI MainThread(HMODULE hmodule)
 {
 	kfnlog::init(kfnlog::level::LOG, true);
-	kfnlog::log("Initialized %s...", APP_NAME);
+	kfnlog::log("Starting %s...", APP_NAME);
 	bool init_hook = false;
 	do
 	{
@@ -30,6 +30,8 @@ DWORD WINAPI MainThread(HMODULE hmodule)
 			init_hook = true;
 		}
 	} while (!init_hook);
+	kfnlog::log("Initialized %s...", APP_NAME);
+	kfnlog::log("Press INS to open the menu!");
 
 	// Handle unloading
 	while (manager->m_pConfig->menu.injected)
