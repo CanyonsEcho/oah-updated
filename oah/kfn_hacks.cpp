@@ -231,8 +231,8 @@ void KFNHacks::JumpHack()
 void KFNHacks::TeleportExploits()
 {
 	if (!manager->m_pConfig->teleportExploits.killCivilians && !manager->m_pConfig->teleportExploits.killRats &&
-		!manager->m_pConfig->teleportExploits.killPolice && !manager->m_pConfig->teleportExploits.killDoors && 
-		!manager->m_pConfig->teleportExploits.killCameras && !manager->m_pConfig->teleportExploits.killBreakableGlass)
+		!manager->m_pConfig->teleportExploits.killPolice && !manager->m_pConfig->teleportExploits.killDoors &&
+		!manager->m_pConfig->teleportExploits.killCameras)
 		return;
 	if (!Vars::MyController)
 		return;
@@ -274,8 +274,6 @@ void KFNHacks::TeleportExploits()
 			currActor->K2_TeleportTo(teleLocation, SDK::FRotator{ 0, 0, 0 });
 		if (manager->m_pConfig->teleportExploits.killCameras && currActor->GetFullName().find("CameraBP") != std::string::npos)
 			currActor->K2_TeleportTo(teleLocation, SDK::FRotator{ 0, 0, 0 });
-		if (manager->m_pConfig->teleportExploits.killBreakableGlass && currActor->GetFullName().find("BreakableGlass") != std::string::npos)
-			currActor->K2_TeleportTo(teleLocation, SDK::FRotator{ 0, 0, 0 });
 	}
 
 	manager->m_pConfig->teleportExploits.killCivilians = false;
@@ -283,5 +281,4 @@ void KFNHacks::TeleportExploits()
 	manager->m_pConfig->teleportExploits.killRats = false;
 	manager->m_pConfig->teleportExploits.killDoors = false;
 	manager->m_pConfig->teleportExploits.killCameras = false;
-	manager->m_pConfig->teleportExploits.killBreakableGlass = false;
 }

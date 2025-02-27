@@ -242,10 +242,6 @@
     <ClCompile Include="libs\UEDump\SDK\DamageComponent_functions.cpp" />
     <ClCompile Include="libs\UEDump\SDK\DamageDirectionIndicator_functions.cpp" />
     <ClCompile Include="libs\UEDump\SDK\DatasmithContent_functions.cpp" />
-    <ClCompile Include="libs\UEDump\SDK\DisplayBreakableGlassTop_functions.cpp" />
-    <ClCompile Include="libs\UEDump\SDK\DisplayBreakableGlass_functions.cpp" />
-    <ClCompile Include="libs\UEDump\SDK\DoorBP_functions.cpp" />
-    <ClCompile Include="libs\UEDump\SDK\DoorBP_Locked_functions.cpp" />
     <ClCompile Include="libs\UEDump\SDK\DoorInterface_functions.cpp" />
     <ClCompile Include="libs\UEDump\SDK\DrillBP_functions.cpp" />
     <ClCompile Include="libs\UEDump\SDK\Duffelbag_functions.cpp" />
@@ -817,15 +813,7 @@
     <ClInclude Include="libs\UEDump\SDK\DatasmithContent_structs.hpp" />
     <ClInclude Include="libs\UEDump\SDK\DeveloperSettings_classes.hpp" />
     <ClInclude Include="libs\UEDump\SDK\DiamondRing_classes.hpp" />
-    <ClInclude Include="libs\UEDump\SDK\DisplayBreakableGlassTop_classes.hpp" />
-    <ClInclude Include="libs\UEDump\SDK\DisplayBreakableGlass_classes.hpp" />
-    <ClInclude Include="libs\UEDump\SDK\DisplayBreakableGlass_parameters.hpp" />
     <ClInclude Include="libs\UEDump\SDK\DmgTypeBP_Environmental_classes.hpp" />
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_classes.hpp" />
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_Locked_Alarm_classes.hpp" />
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_Locked_classes.hpp" />
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_Locked_parameters.hpp" />
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_parameters.hpp" />
     <ClInclude Include="libs\UEDump\SDK\DoorInterface_classes.hpp" />
     <ClInclude Include="libs\UEDump\SDK\DoorInterface_parameters.hpp" />
     <ClInclude Include="libs\UEDump\SDK\DrillBP_classes.hpp" />

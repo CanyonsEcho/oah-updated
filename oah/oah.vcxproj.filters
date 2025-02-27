@@ -253,18 +253,6 @@
     <ClCompile Include="libs\UEDump\SDK\DatasmithContent_functions.cpp">
       <Filter>libs\UEDump\SDK</Filter>
     </ClCompile>
-    <ClCompile Include="libs\UEDump\SDK\DisplayBreakableGlass_functions.cpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClCompile>
-    <ClCompile Include="libs\UEDump\SDK\DisplayBreakableGlassTop_functions.cpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClCompile>
-    <ClCompile Include="libs\UEDump\SDK\DoorBP_functions.cpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClCompile>
-    <ClCompile Include="libs\UEDump\SDK\DoorBP_Locked_functions.cpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClCompile>
     <ClCompile Include="libs\UEDump\SDK\DoorInterface_functions.cpp">
       <Filter>libs\UEDump\SDK</Filter>
     </ClCompile>
@@ -1922,31 +1910,7 @@
     <ClInclude Include="libs\UEDump\SDK\DiamondRing_classes.hpp">
       <Filter>libs\UEDump\SDK</Filter>
     </ClInclude>
-    <ClInclude Include="libs\UEDump\SDK\DisplayBreakableGlass_classes.hpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="libs\UEDump\SDK\DisplayBreakableGlass_parameters.hpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="libs\UEDump\SDK\DisplayBreakableGlassTop_classes.hpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClInclude>
     <ClInclude Include="libs\UEDump\SDK\DmgTypeBP_Environmental_classes.hpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_classes.hpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_Locked_Alarm_classes.hpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_Locked_classes.hpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_Locked_parameters.hpp">
-      <Filter>libs\UEDump\SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="libs\UEDump\SDK\DoorBP_parameters.hpp">
       <Filter>libs\UEDump\SDK</Filter>
     </ClInclude>
     <ClInclude Include="libs\UEDump\SDK\DoorInterface_classes.hpp">
