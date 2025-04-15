@@ -66,4 +66,4 @@ OAH is a C++ project designed to work on Windows using Visual Studio.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=fluffysnaff/oah&type=Date)](https://star-history.com/#fluffysnaff/oah&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=fluffysnaff/oah&type=Date)](https://www.star-history.com/#fluffysnaff/oah&Date)
